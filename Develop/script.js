@@ -44,7 +44,7 @@ return password;
 
 function getPrompts(){
   choiceArr=[];
-  characterLenght=parselnt(prompt("How many characters do you want your password to have? (Choose between 8-128 characters"));
+  characterLenght=parseInt(prompt("How many characters do you want your password to have? (Choose between 8-128 characters"));
    
     if (isNaN(characterLenght)==characterLenght<8==characterLenght>128){
     alert("You can only choose between 8-128 characters");
@@ -54,15 +54,14 @@ function getPrompts(){
    if (confirm("Do you want lowercase letters in your password?"));{
     choiceArr=choiceArr.concat(lowerCaseArr);
    }
-}
-
-  console.log("You clicked the button!");
-
-
-
-  passwordText.value = password;
-
-
-
-// Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+   if (confirm("Do you want uppercase letters in your password?"));{
+    choiceArr=choiceArr.concat(upperCaseArr);
+    }
+    if (confirm("Do you want any numbers in your password?"));{
+      choiceArr=choiceArr.concat(numberArr);
+    }
+    if (confirm("Do you want any special characters in your password?"));{
+      choiceArr=choiceArr.concat(specialCharArr);
+    }
+    return true;
+  }
