@@ -45,7 +45,15 @@ return password;
 function getPrompts(){
   choiceArr=[];
   characterLenght=parselnt(prompt("How many characters do you want your password to have? (Choose between 8-128 characters"));
-  
+   
+    if (isNaN(characterLenght)==characterLenght<8==characterLenght>128){
+    alert("You can only choose between 8-128 characters");
+    return false;
+   }
+
+   if (confirm("Do you want lowercase letters in your password?"));{
+    choiceArr=choiceArr.concat(lowerCaseArr);
+   }
 }
 
   console.log("You clicked the button!");
