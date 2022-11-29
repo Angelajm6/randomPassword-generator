@@ -7,33 +7,17 @@ I have modified the starter code that has been given to me to create an applicat
 ## Features
 A button to generate a random password
 Option for password lenght
-Character types to include in the password
+Option for lower case and upper case 
+option for special characters
+Option for numbers
 
 
 ## How to use
+Click the red button "Generate password" and follow the instruction that will pop up on top of the webpage. Once all the prompts are answered, your random password will be generated matching the selected criteria. 
 
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
 
 ## Mock-Up
 
 The following image shows the web application's appearance and functionality:
-
-
-
 
 <img width="1326" alt="Screen Shot" src="https://user-images.githubusercontent.com/109991922/204442648-05b55df7-7e1a-4bcb-875e-818750fc4324.png">
