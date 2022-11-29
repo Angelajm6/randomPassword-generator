@@ -1,10 +1,13 @@
 # JavaScript Password Generator
 
 ## Introduction
-In my password generator project I have modified starter code that has been given to me to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
+I have modified the starter code that has been given to me to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code.
 
 
 ## Features
+A button to generate a random password
+Option for password lenght
+Character types to include in the password
 
 
 ## How to use

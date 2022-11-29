@@ -1,4 +1,5 @@
-// Assignment Code
+var characterLenght=8;
+var choiceArr =[];
 var generateBtn = document.querySelector("#generate");
 
 function generatePassword(){
