@@ -32,6 +32,26 @@ function writePassword() {
   }
 }
 
+//generatePassword considering prompts
+function generatePassword(){
+var password="";
+for (var i=0; i<characterLenght; i++){
+  var randomIndex=Math.floor(Math.random() *choiceArr.lenght);
+  password=password + choiceArr[randomIndex];
+}
+return password;
+}
+
+function getPrompts(){
+  choiceArr=[];
+  characterLenght=parselnt(prompt("How many characters do you want your password to have? (Choose between 8-128 characters"));
+  
+}
+
+  console.log("You clicked the button!");
+
+
+
   passwordText.value = password;
 
 
