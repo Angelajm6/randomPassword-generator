@@ -23,9 +23,6 @@ function writePassword() {
   var correctPrompts=getPrompts();
   var passwordText=document.querySelector("#password");
 
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-
   if (correctPrompts){
     var newPassword=generatePassword();
     passwordText.value=newPassword;
@@ -37,7 +34,7 @@ function writePassword() {
 
   passwordText.value = password;
 
-}
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
